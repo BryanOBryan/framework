@@ -1,0 +1,29 @@
+{
+    "name": "kaliba/framework",
+    "description": "The Kaliba framework",
+    "type": "library",
+    "keywords": ["framework", "kaliba" ],
+    "homepage": "http://Simpocom.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brian Simpokolwe",
+            "email": "briansimpokolwe@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "phpmailer/phpmailer": "^6.0",
+        "eftec/bladeone": "^3.18",
+		
+    },	
+	
+    "autoload": {
+        "psr-4": {
+            "Kaliba\\": "src/"
+        },
+        "files": [
+            "src/Support/Helpers.php"
+        ]
+    } 
+}
